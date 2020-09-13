@@ -37,6 +37,11 @@ namespace ApiSecureStudent.Controllers
             return Ok(student);
         }
 
+        public object PostStudent()
+        {
+            throw new NotImplementedException();
+        }
+
         // PUT: api/Students/5
         [Authorize]
         [ResponseType(typeof(void))]
